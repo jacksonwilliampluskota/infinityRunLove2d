@@ -45,7 +45,7 @@ function love.update(dt)
 	-- main loop
 	if isGameOver == false then
 		-- input
-		if love.keyboard.isDown('w') and player.jumping == false then
+		if love.keyboard.isDown('up','space') and player.jumping == false then
 			love.audio.play(puloSND)
 			player.jumping = true
 		end
