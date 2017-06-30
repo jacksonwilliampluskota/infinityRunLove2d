@@ -1,8 +1,8 @@
---cofiguration
-
+-- Configuration
 function love.conf(t)
-	t.title = "Infinty Run!"--titulo que vai aparecer na janela do jogo
-	t.version = "0.10.2"
-	t.window.width = 640
+	t.title = "Run Stickman, Run!" -- The title of the window the game is in (string)
+	t.version = "0.10.2"         -- The LÖVE version this game was made for (string)
+	t.window.width = 640        -- we want our game to be long and thin.
 	t.window.height = 480
+	t.window.icon = 'imagens/icon.png'
 end
